@@ -1,0 +1,25 @@
+package com.company;
+
+import java.util.Scanner;
+public class Main {
+    public static void main() {
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter the math marks is:");
+        int a = sc.nextInt();
+        System.out.print("Enter the science marks is:");
+        int b = sc.nextInt();
+        System.out.print("Enter the  socialScience marks is:");
+        int c = sc.nextInt();
+        System.out.print("Enter the math Hindi marks is:");
+        int d = sc.nextInt();
+        System.out.print("Enter the math English marks is:");
+        int e = sc.nextInt();
+        
+        // Sum of all Marks.
+        int sum = a + b + c + d + e;
+        
+        // per formula.
+        int per = (sum * 100) / 500;
+        System.out.println("We got the percentage is :" + per);
+    }
+}
